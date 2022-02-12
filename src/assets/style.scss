@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+body {
+  background-image: url("./ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // nav bar styling
+  nav .nav-wrapper {
+    background-color: black;
+    height: 125%;
+  }
+
+  // content section styling
+  .contentSection {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+  }
+
+  .contentSection header {
+    display: flex;
+    width: 10%;
+  }
+  // setting background image styling
+  .background {
+    background-image: url("ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  //about me styling
+  .about {
+    color: white;
+    padding-top: 175px;
+  }
+  //titles styling
+  .aboutMeTitle,
+  .workTitle,
+  .contactTitle,
+  .resumeTitle {
+    color: white;
+    font-weight: bolder;
+  }
+  //sets left border
+  .aboutMeParagraph {
+    border-left: solid 5px black;
+    text-align: left;
+  }
+  //font color styling
+  .work {
+    color: white;
+  }
+
+  .contact {
+    color: white;
+  }
+  //border styling
+  .workProject1 {
+    border: 3px solid black;
+    border-left: solid 5px black;
+  }
+  //border styling
+  .workProject2 {
+    border: 3px solid black;
+    border: solid 5px black;
+  }
+  //container styling
+  .codeQuizGame {
+    color: white;
+    border: 3px solid black;
+    border-left: solid 5px black;
+  }
+
+  .mvcTechBlog {
+    color: white;
+    border: 3px solid black;
+    border-left: solid 5px black;
+  }
+
+  .workdayscheduler {
+    color: white;
+    border: 5px solid black;
+  }
+
+  .weatherDashboard {
+    color: white;
+    border: 5px solid black;
+  }
+
+  .work-container-title {
+    color: white;
+  }
+  //contact links styling to center in container better
+  .phone,
+  .email,
+  .github,
+  .linkedIn {
+    margin-top: 25px;
+  }
+
+  .contactContainerForm {
+    background-color: lightgray;
+    width: 50%;
+  }
+
+  .contact-name, .contact-email, .contact-message {
+    background-color: white;
+  }
+}

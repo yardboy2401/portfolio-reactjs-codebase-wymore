@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+body {
+  background-image: url("./ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body nav .nav-wrapper {
+  background-color: black;
+  height: 125%;
+}
+
+body .contentSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+body .contentSection header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+}
+/* 
+body .background {
+  background-image: url("ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
+
+body .about {
+  color: white;
+  padding-top: 175px;
+}
+
+body .aboutMeTitle,
+body .workTitle,
+body .contactTitle,
+body .resumeTitle {
+  color: white;
+  font-weight: bolder;
+}
+
+body .aboutMeParagraph {
+  border-left: solid 5px black;
+  text-align: left;
+}
+
+body .work {
+  color: white;
+}
+
+body .contact {
+  color: white;
+}
+
+body .workProject1 {
+  border: 3px solid black;
+  border-left: solid 5px black;
+}
+
+body .workProject2 {
+  border: 3px solid black;
+  border: solid 5px black;
+}
+
+body .codeQuizGame {
+  color: white;
+  border: 3px solid black;
+  border-left: solid 5px black;
+}
+
+body .mvcTechBlog {
+  color: white;
+  border: 3px solid black;
+  border-left: solid 5px black;
+}
+
+body .workdayscheduler {
+  color: white;
+  border: 5px solid black;
+}
+
+body .weatherDashboard {
+  color: white;
+  border: 5px solid black;
+}
+
+body .work-container-title {
+  color: white;
+}
+
+body .phone,
+body .email,
+body .github,
+body .linkedIn {
+  margin-top: 25px;
+}
+
+body .contactContainerForm {
+  background-color: lightgray;
+  width: 50%;
+}
+
+body .contact-name, body .contact-email, body .contact-message {
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
